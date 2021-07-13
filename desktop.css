@@ -1,0 +1,83 @@
+header {
+    height: 30vh;
+}
+.container-izquierda {
+    width: 50%;
+}
+.cont-izq__tip {
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 50% 50%;
+    margin-bottom: 30px;
+    width: 100%;
+    margin: 0 auto;
+}
+.people {
+    margin-top: 30px;
+}
+.cont-izq__bill {
+    margin-right: 0px;
+}
+.cont-izq__tip button {
+    width: 9vw;
+    padding: 5px 35px;
+    height: 7vh;
+}
+.cont-izq__tip input {
+    width: 9vw;
+    height: 7vh;
+}
+.cont-izq__people {
+    margin-right: 0px;
+}
+.container-derecha {
+    width: 50%;
+}
+.cont-dere__total-der {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.cont-dere__amount-der {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.cont-dere__amount {
+    margin-left: 30px;
+}
+.cont-dere__total {
+    margin-left: 30px;
+}
+.cont-dere__amount-izq h3 {
+    color: white;
+    font-size: 18px;
+}
+.cont-dere__amount-izq h4 {
+    color: hsl(184, 14%, 56%);
+    font-size: 15px;
+}
+.cont-dere__total-izq h3{
+    color: white;
+    font-size: 18px;
+}
+.cont-dere__total-izq h4 {
+    color: hsl(184, 14%, 56%);
+    font-size: 15px;
+}
+.cont-dere__amount-der p {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 3px;
+    color: hsl(172, 67%, 45%);
+}
+.cont-dere__total-der p {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 3px;
+    color: hsl(172, 67%, 45%);
+}

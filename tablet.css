@@ -1,0 +1,46 @@
+header {
+    height: 20vh;
+}
+.container-izquierda {
+    width: 100%;
+}
+.cont-izq__tip {
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 50% 50%;
+    margin-bottom: 30px;
+    width: 100%;
+    margin: 0 auto;
+}
+.cont-izq__bill {
+    margin-right: 0px;
+}
+.container-izquierda h3 {
+    color: hsl(184, 14%, 56%);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.cont-izq__tip button {
+    width: 17vw;
+    padding: 10px 35px;
+    margin: 5px;
+    height: 10vh;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.cont-izq__tip input {
+    width: 17vw;
+    height: 10vh;
+}
+.cont-izq__people {
+    margin-right: 0px;
+}
+.container-derecha {
+    width: 100%;
+}
