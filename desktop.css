@@ -13,6 +13,7 @@ header {
     margin: 0 auto;
 }
 .people {
+    font-size: 20px;
     margin-top: 30px;
 }
 .cont-izq__bill {
@@ -80,4 +81,9 @@ header {
     font-weight: 700;
     margin-left: 3px;
     color: hsl(172, 67%, 45%);
+}
+.zero1, .zero2 {
+    margin-right: 20px;
+    font-size: 15px;
+    color: red;
 }

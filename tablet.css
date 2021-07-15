@@ -44,3 +44,12 @@ header {
 .container-derecha {
     width: 100%;
 }
+.zero {
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: red;
+}
+.people {
+    font-size: 20px;
+}

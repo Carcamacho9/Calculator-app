@@ -19,21 +19,27 @@
     </header>
     <main class="container">
         <section class="container-izquierda">
-            <h2>Bill</h2>
+            <div class="textos">
+                <h2>Bill</h2>
+                <h4 id="zero1" class="zero1"></h4>
+            </div>
             <section class="cont-izq__bill">
                 <label for="bill"><img src="./images/icon-dollar.svg" alt="$"></label>
                 <input id="bill" type="number" placeholder="0">
             </section>
             <h3>Select Tip %</h3>
             <section class="cont-izq__tip">
-                <button type="button">5%</button>
-                <button type="button">10%</button>
-                <button type="button">15%</button>
-                <button type="button">25%</button>
-                <button type="button">50%</button>
-                <input type="number" placeholder="Custom">
+                <button id="button5" type="button" value="5" onclick="validatePerson(5), changeColor(5)">5%</button>
+                <button id="button10" type="button" value="10" onclick="validatePerson(10), changeColor(10)">10%</button>
+                <button id="button15" type="button" value="15" onclick="validatePerson(15), changeColor(15)">15%</button>
+                <button id="button25" type="button" value="25" onclick="validatePerson(25), changeColor(25)">25%</button>
+                <button id="button50" type="button" value="50" onclick="validatePerson(50), changeColor(50)">50%</button>
+                <input id="custom" type="number" placeholder="Custom" onclick="customCase()">
             </section>
-            <h3 class="people">Number of People</h3> 
+            <div id="textos" class="textos">
+                <h3 class="people">Number of People</h3> 
+                <h4 id="zero2" class="zero2"></h4> 
+            </div>
             <section class="cont-izq__people">
                 <label for="person"><img src="./images/icon-person.svg" alt="Icon Person"></label>
                 <input id="person" type="number" placeholder="0"> 
@@ -60,14 +66,14 @@
                 </div>
             </div>
             </section>
-            <button type="button" disabled>
+            <button id="reset" type="button" disabled onclick="resetApp()">
                 RESET
             </button>
         </section>
     </main>
     <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Your Name Here</a>.
+        Coded by <a href="https://github.com/Carcamacho9">Carlos Camacho</a>.
     </div>
   <script src="./app.js"></script>
 </body>
